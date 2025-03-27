@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetLove - Pet Shop Moderno</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.png" alt="PetLove">
+                <h1>Pet<span>Love</span></h1>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+                ☰
+            </div>            
+            <nav class="menu" id="menu">
+                <ul>
+                    <li><a href="#home"><i class="fas fa-home"></i><span class="text">Home</span></a></li>
+                    <li><a href="#servicos"><i class="fas fa-cogs"></i><span class="text">Serviços</span></a></li>
+                    <li><a href="#produtos"><i class="fas fa-box"></i><span class="text">Produtos</span></a></li>
+                    <li><a href="#quem-somos"><i class="fas fa-users"></i><span class="text">Quem Somos</span></a></li>
+                    <li><a href="contato.html"><i class="fas fa-envelope"></i><span class="text">Contato</span></a></li>
+                </ul>
+            </nav>
+            
+            
+        </div>
+    </header>
+
+<!-- Substitua a seção atual do banner por este código: -->
+<section class="banner">
+    <div class="carousel-container">
+        <div class="carousel-slide">
+            <!-- Banner 1 -->
+            <div class="slide active" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1586671267731-da2cf3ceeb80?auto=format&fit=crop&w=1350&q=80')">
+                <div class="container">
+                    <h2>Seu pet merece o melhor!</h2>
+                    <p>Cuidamos do seu animal de estimação com amor e dedicação</p>
+                    <a href="#servicos" class="btn">Conheça nossos serviços</a>
+                </div>
+            </div>
+            
+            <!-- Banner 2 -->
+            <div class="slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1601758003122-53c40e686a19?auto=format&fit=crop&w=1350&q=80')">
+                <div class="container">
+                    <h2>Banho e Tosa Profissional</h2>
+                    <p>Deixe seu pet limpo e cheiroso com nossos serviços especializados</p>
+                    <a href="#servicos" class="btn">Agende agora</a>
+                </div>
+            </div>
+            
+            <!-- Banner 3 -->
+            <div class="slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1350&q=80')">
+                <div class="container">
+                    <h2>Produtos de Qualidade</h2>
+                    <p>Tudo o que seu pet precisa em um só lugar</p>
+                    <a href="#produtos" class="btn">Ver produtos</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Botões de navegação -->
+        <button class="carousel-btn prev-btn">&lt;</button>
+        <button class="carousel-btn next-btn">&gt;</button>
+    </div>
+</section>
+
+    <section id="servicos" class="services">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="services-grid">
+                <div class="service-item" data-anime="fadeIn">
+                    <i class="fas fa-bath"></i>
+                    <h3>Banho & Tosa</h3>
+                    <p>Banho profissional com produtos de qualidade e tosa higiênica ou estética.</p>
+                </div>
+                <div class="service-item" data-anime="fadeIn" data-anime-delay="0.2s">
+                    <i class="fas fa-medkit"></i>
+                    <h3>Veterinário</h3>
+                    <p>Consultas, vacinas e exames com profissionais especializados.</p>
+                </div>
+                <div class="service-item" data-anime="fadeIn" data-anime-delay="0.4s">
+                    <i class="fas fa-home"></i>
+                    <h3>Hotel</h3>
+                    <p>Hospedagem confortável para quando você precisar viajar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="produtos" class="products">
+        <div class="container">
+            <h2>Nossos Produtos</h2>
+            <div class="product-categories">
+                <div class="category" data-anime="slideUp">
+                    <img src="https://images.unsplash.com/photo-1601758003122-53c40e686a19" alt="Cachorro">
+                    <h3>Cães</h3>
+                </div>
+                <div class="category" data-anime="slideUp" data-anime-delay="0.2s">
+                    <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba" alt="Gato">
+                    <h3>Gatos</h3>
+                </div>
+                <div class="category" data-anime="slideUp" data-anime-delay="0.4s">
+                    <img src="https://images.pexels.com/photos/2156311/pexels-photo-2156311.jpeg" alt="Aquário">
+                    <h3>Peixes</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="quem-somos" class="about">
+        <div class="container">
+            <h2>Quem Somos</h2>
+            <div class="about-content">
+                <div class="about-text" data-anime="fadeInLeft">
+                    <p>A PetLove nasceu em 2025 da paixão por animais e da vontade de oferecer o melhor para eles. Nossa equipe é formada por profissionais altamente qualificados e apaixonados por pets.</p>
+                    <p>Nossa missão é proporcionar bem-estar, saúde e felicidade para seu animal de estimação, com serviços de qualidade e produtos selecionados.</p>
+                    <p>Visamos ser referência no mercado pet, oferecendo atendimento personalizado e um ambiente acolhedor para você e seu pet.</p>
+                </div>
+                <div class="about-image" data-anime="fadeInRight">
+                    <img src="https://images.unsplash.com/photo-1594149929911-78975a43d4f5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Equipe PetLove">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-info">
+                <div class="footer-logo">
+                    <img src="img/logo.png" alt="PetLove">
+                    <h3>Pet<span>Love</span></h3>
+                </div>
+                <p>&copy; 2025 PetLove - Todos os direitos reservados</p>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
